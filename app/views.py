@@ -5,7 +5,7 @@ import io
 
 from aiohttp import web
 import aiohttp_jinja2
-from jinja2 import Markup
+from markupsafe import Markup
 from telethon.tl import types
 from telethon.tl.custom import Message
 from telethon.tl.types import User, Chat, Channel
